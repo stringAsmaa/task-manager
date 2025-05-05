@@ -33,5 +33,5 @@ EXPOSE 8080
 
 # Entrypoint script to run migrations & start Laravel server
 CMD php artisan config:cache && \
-    php artisan migrate:fresh --force && \
+    php artisan migrate --force && \
     php artisan serve --host=0.0.0.0 --port=8080
