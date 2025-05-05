@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@source "../views";
+
+
+.button {
+
+    @apply text-white px-3 py-2 rounded-md duration-200 hover:scale-105 hover:rounded-full transition  hover:text-neutral-500 flex items-center gap-2;
+}
